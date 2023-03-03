@@ -1,0 +1,10 @@
+{% extends "base2.html" %}
+{% block title %} Home Page {% endblock %}
+
+{% block sampledata %}
+{% for table in tables %}
+    
+    {{table|safe }}
+
+{% endfor %}
+{% endblock %}

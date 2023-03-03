@@ -1,0 +1,60 @@
+
+<!doctype html>
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>{%block title %} HOME {% endblock %}</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="{{url_for('static', filename='style.css')}}" ></script>
+	
+
+</head>
+	<body>
+		<div class="container">
+	<!--Navbar-->
+
+<div class="row-fluid">
+    <div class="col-sm-12">
+		<nav class="navbar navbar-default">
+             <a href="" class="navbar-left">
+				<img src="{{url_for('static', filename='corcencc_logo.png')}}" width="151" height="80"/>
+			
+			</a>
+			<div>
+				<ul class="nav navbar-nav">
+                    <li class="active"><a href="">Home</a></li>
+					<li><a href="">Word embeddings one</a></li>
+					<li><a href="">VWord embeddings two</a></li>
+
+					<li><a href="">Gold Standard</a></li>
+
+					
+                    
+				</ul>
+			</div>
+		</nav>
+	</div>
+</div>
+
+
+<div class="col-sm-12">
+    <div class="row well">
+	<div class="row"><img class="center-block" src= "{{url_for('static', filename='y_tiwtiadur_logo_trans_10.png')}}" width="245px" alt="logo"></div>
+	<br>
+    <p>
+		The main aim of this project is to develop an open-access, freely available online thesaurus of the Welsh language, for Welsh speakers and learners alike. Users will be able to use an interface on this website to search for synonyms (similar words). For example, searching for the word ‘to search’ could show synonyms like ‘look for’, ‘pursue’, and ‘explore’.
+                </p>   </div>
+</div>
+
+<div class="col-sm-12">
+	<div class="row well">
+		<div class="footer small form-text text-muted">
+			© 2023 CorCenCC
+		</div>
+	</div>
+</div>
+</div>
+	
+
+
+</body></html>
